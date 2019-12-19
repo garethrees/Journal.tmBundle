@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>txt</string>
+		<string>md</string>
+	</array>
+	<key>injectionSelector</key>
+	<string>text.plain, text.html.markdown</string>
+	<key>name</key>
+	<string>Plain Text (Journal)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^\d\d\d\d-\d\d-\d\d$</string>
+			<key>name</key>
+			<string>storage.type.class.${1:/downcase}</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.journal</string>
+	<key>uuid</key>
+	<string>D00ECDD1-E6D2-4E46-BC4F-93DA24B397E1</string>
+</dict>
+</plist>
