@@ -21,7 +21,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^[A-Z0-9\h]+$</string>
+			<string>^([A-Z0-9]+(\s))+$</string>
 			<key>name</key>
 			<string>storage.type.class.${1:/downcase}</string>
 		</dict>
