@@ -1,5 +1,5 @@
 # Plain Text (Journal)
 
-Highlights `YYYY-MM-DD` dates as journal headings:
+Highlights `YYYY-MM-DD` dates and capitalised lines as journal headings:
 
-![Journal.tmBundle](https://i.imgur.com/f8Br37I.png)
+![Journal.tmBundle](./doc/screenshot.png)
